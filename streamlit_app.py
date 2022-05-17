@@ -1,7 +1,7 @@
-import streamlit as st
-from sklearn.tree import DecisionTreeClassifier
+from collections import  namedtuple
+import altair as alt
+import math
 import pandas as pd
-import numpy as np
 from sklearn.tree import export_graphviz
 
 st.title("Kaç yaşındasın")
